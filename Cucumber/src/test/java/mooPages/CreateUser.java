@@ -6,8 +6,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
-import framework.GetBrowser;
-
 public class CreateUser {
 	
 private String URL = "https://www.moo.com/uk/account/signin.php";
