@@ -24,8 +24,8 @@ public class RunningTest {
 		cu.typeFirstName("Anna");
 		cu.typeSecondName("Keskeny");
 		cu.typeEmail("konlabos77@gmail.com");
-		cu.typePassword("12345678");
-		cu.typeConfPass("12345678");	
+		cu.typePassword("JtE8tRLS");
+		cu.typeConfPass("JtE8tRLS");	
 	}
 	
 	@AfterClass
