@@ -8,12 +8,12 @@ import org.testng.Assert;
 
 public class CreateUser {
 	
-private String URL = "https://www.moo.com/uk/account/signin.php";
+	private String URL = "https://www.moo.com/uk/account/signin.php";
 	
 	WebDriver gb; //an empty variable, which will be populated from the constructor
 	private String title = "Sign in | MOO (United Kingdom)";
 	
-	@FindBy (css="label[data-webdriver-automation-id='signup-option']")	private WebElement singUp;
+	@FindBy (css="label[data-webdriver-automation-id='signup-option']") private WebElement singUp;
 	@FindBy (css="input[id='txtFirstName']") private WebElement firstName;
 	@FindBy (css="input[id='txtLastName']") private WebElement secondName;
 	@FindBy (id="txtEmailSignUp") private WebElement email;
